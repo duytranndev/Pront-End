@@ -1,0 +1,32 @@
+.main{
+    width: 1300px;
+    margin: auto;
+    float: left;
+    padding-left: 110px
+}
+.khoi{
+    width: 260px;
+    margin: auto;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
+.hinh{
+    width: 260px;
+    height: 380px;
+    padding-left: 80px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+p:hover{
+    color:brown;
+}
+.khoi:hover p{
+    color: crimson;
+}

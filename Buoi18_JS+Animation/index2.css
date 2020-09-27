@@ -1,0 +1,52 @@
+.chieuxuoi{
+    animation: xuoi 4s forwards !important;
+}
+@keyframes xuoi{
+    0%{
+        transform: translateX(0) translateY(0px);
+    }
+    20%{
+        transform: translateX(200px) translateY(0px);
+    }
+    40%{
+        transform: translateX(200px) translateY(200px);
+    }
+    60%{
+        transform: translateX(400px) translateY(200px);
+    }
+    80%{
+        transform: translateX(400px) translateY(400px);
+    }
+    100%{
+        transform: translateX(600px) translateY(400px);
+    }
+}
+.khongcd{
+    animation: none !important;
+}
+
+.chieunguoc{
+    animation: nguoc 4s forwards ;
+}
+
+@keyframes nguoc{
+    100%{
+        transform: translateX(0) translateY(0px);
+    }
+    80%{
+        transform: translateX(200px) translateY(0px);
+    }
+    60%{
+        transform: translateX(200px) translateY(200px);
+    }
+    40%{
+        transform: translateX(400px) translateY(200px);
+    }
+    20%{
+        transform: translateX(400px) translateY(400px);
+    }
+    0%{
+        transform: translateX(600px) translateY(400px);
+    }
+}
+

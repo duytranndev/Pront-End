@@ -1,0 +1,67 @@
+.abc{
+    width: 0;
+    height: 0;
+    border: 50px transparent solid;
+    border-bottom-color: blue;
+}
+.title::before{
+    content: "Han hanh";
+}
+.title::after{
+    content: "okeee";
+}
+
+.thanhmenu{
+    height: 40px;
+    background: #5474b3;
+}
+.phantu{
+    position: relative;
+    float: right;
+    margin-right: 200px;
+    margin-top: 7px;
+}
+.tamgiac{
+    color: rgba(31, 30, 30, 0.877);
+    transition: 0.5s;
+    font-size: 18px;
+    padding: 15px;
+    padding-top: 0px;
+    cursor: pointer /* cho con trỏ chuột thành hình bàn tay */;
+}
+
+.danhsach{
+    position: absolute;
+    top:34px ;
+    right: -9px;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+}
+.danhsach::after{
+    content: "";
+    position: absolute;
+    top: -20px;
+    width: 0px;
+    height: 0;
+    border: 11px transparent solid;
+    border-bottom-color: white;
+    right: 17px;
+}
+
+li.list-group-item:hover{
+    background-color:  #5474b3;
+    color: white;
+}
+li.list-group-item{
+    cursor: pointer;
+}
+
+.tgtrang{
+    color: white !important;
+    
+}
+.hienthi{
+    visibility: visible;
+    opacity: 1;
+}

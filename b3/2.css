@@ -1,0 +1,77 @@
+body{
+    background: url(hinhmeo.jpg) fixed center;
+    background-repeat: no-repeat;
+    background-size: 100%   100%;
+    /*tràn ảnh full màn hình*/
+    text-align: center;
+    color:white;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-shadow: 2px 3px black;
+}
+.main{
+    width: 80%;
+    background-color: rgba(60, 54, 134, 0.192);
+    padding: 1.5em 1.4em 1.5em;
+    margin: 0em auto;
+    border: rgba(24, 7, 7, 0.884) 10px double;
+    box-shadow: -2px 7px 37px 8px rgba(223, 29, 29, 0.795);
+}
+.form-group{
+    display: flex;
+    justify-content: space-between;
+}
+.form-mid-w3ls {
+    flex-basis: 31.4%;/*quy định độ dài ban đầu của item*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;/*sắp xếp các nội dung theo chiều dọc*/
+}
+input{
+    width: 80%;
+    height: 30px;
+    background-color: transparent;
+    color: red;
+    border: transparent;
+    border-bottom: 1px solid white;
+}
+.form-check {
+    margin-right: 0px;
+    display: inline-block;
+}
+.form-check-input{
+    text-align: left;
+    width: 30%;
+    height: 30%;
+}
+div{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+.form-check1{
+    display: inline-block;
+    width: 20%;
+}
+button{
+    margin-top: 20px;
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    width: 90%;
+    font-weight: bold;
+    font-size: 30px;
+}

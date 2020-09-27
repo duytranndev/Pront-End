@@ -1,0 +1,101 @@
+*{padding: 0;margin: 0;
+font-family: 'segoe ui light';}
+
+.phan1{
+    background-image: url(images/hinh1.jpg);
+    height: 700px;
+    width: 100%;
+    background-position-x: -200px; /* dịch vị tí hình nền sang trái */
+    background-attachment: fixed;
+}
+.phan2{
+    text-align: center;
+    background-image: url(images/hinh4.jpg);
+    background-attachment: fixed;
+    height: 700px;
+    background-position-x: 150px;
+}
+.phan3{
+    background-image: url(images/hinh2.jpg);
+    background-attachment: fixed;
+    height: 700px;
+}
+.ndphan1{
+    width: 900px;
+    margin: auto;
+    text-align: right;
+    font-size: 40px;
+    color: black;
+}
+.chulon{
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase; /* đổi tất cả chữ sang in hoa */
+}
+.chunho{
+    padding-top: 300px;
+    font-size: 20px;
+}
+
+.ndphan3{
+    width: 900px;
+    margin: auto;
+    text-align: left;
+    font-size: 40px;
+    color: black;
+}
+.phan2 .chulon{
+    color: white;
+    font-weight: bold;
+}
+.phan2 .chunho{
+    color: white;
+}
+.phan2 .nut .shop{
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.phan2 p{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.phan4{
+    text-align: center;
+    background-image: url(images/hinh3.jpg);
+    background-attachment: fixed;
+    height: 700px;
+    background-position-x: -30px;
+}
+.phan4 .chulon{
+    color: white;
+    font-weight: bold;
+}
+.phan4 .chunho{
+    color: white;
+}
+.phan4 .nut .shop{
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.phan4 p{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+a.shop{
+    background: black;
+    font-size: 14px;
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 7px 20px; /* trên dưới trái phải */
+}
+a.shop:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}

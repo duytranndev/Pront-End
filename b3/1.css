@@ -1,0 +1,34 @@
+@font-face{
+    font-family: huy;
+    src: url(font/Caroollina_personal_use.ttf);
+}
+h1{
+    padding-top: 30px;
+    font-family: huy;
+    font-size: 40px;
+}
+#main{
+    width: 200px;
+    margin: auto;
+    text-align: left;
+    padding-left: 20px;
+    border: 1px solid black;
+}
+.abc{
+    border-radius: 10px;
+    width: 180px;
+}
+.so2{
+    margin-top: 10px;
+    /*giãn cách*/
+}
+.nut{
+    width: 100px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+body{
+    background-color: coral;
+}

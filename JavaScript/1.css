@@ -1,0 +1,29 @@
+.khung{
+    width: 200px;
+    height: 500px;
+}
+.clear_all{
+    clear: both;
+}
+#ketqua{
+    text-align: right;
+}
+input{
+    color: red;
+    width: 180px;
+    margin-bottom: 10px;
+}
+.button{
+    margin: 0px 15px 15px 0;
+    padding: 10px 10px 10px 10px;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(165, 165, 172);
+    width: 15px;
+    height: 15px;
+    color: white;
+}
+.button:hover{
+    background-color: rgb(172, 159, 157);
+}

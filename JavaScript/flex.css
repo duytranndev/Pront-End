@@ -1,0 +1,12 @@
+.cha{
+    width: 75px;
+    height: 102px;
+    display: flex;
+    
+}
+.con{
+    width: 25px;
+    height: 50px;
+    background-color: violet;
+    margin: 1px 1px;
+}

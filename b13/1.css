@@ -1,0 +1,61 @@
+*{
+    margin: 0; padding: 0;
+}
+.logo{
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 12px 28px;
+    position: relative;
+    top: 0px;
+    transition: 0.5s;
+}
+.logo.chucam{
+    background: white;
+    color: orange !important;
+}
+.nentrang{
+    background: white;
+    color: orange !important;
+}
+.chumenu{
+    color: black !important;
+}
+.menuright .nav-link{
+    text-transform: uppercase;
+    padding: 10px 50px;
+    font-size: 15px;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+.menuright .nav-link:hover{
+    color: white !important;
+}
+.menuright li.active .nav-link{
+    color: orange !important;
+}
+.banner .menuright .nav-link.nutsignup{
+    color: white !important;
+    background-color: transparent !important;
+    border: transparent;
+}
+.menuright .nav-link.nutsignup:hover{
+    color: white;
+    border-color: orange;
+    background: orange;
+}
+.banner .menuright .nav-link.nutsignup.btn{
+    background-color: orange !important ;
+    color: black !important;
+}
+.lentren{
+    font-size: 50px;
+}
+.nuttop{
+    transition: 0.5s;
+    opacity: 0;
+}
+.nuttop.hienthi{
+    opacity: 1;
+}

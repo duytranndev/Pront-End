@@ -1,0 +1,10 @@
+@keyframes n1{
+    from{transform: rotateZ(0deg);opacity: 0;}
+    to{transform: rotateZ(360deg);opacity: 1;}
+}
+img{
+    width: 100%;
+}
+.hinh:hover{
+    animation: n1 4s infinite;
+}

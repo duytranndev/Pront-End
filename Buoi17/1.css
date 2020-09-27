@@ -1,0 +1,11 @@
+.s1{
+    width: 200px;
+}
+.doimau{
+   background-color: red !important;
+}
+.dichchuyen{
+    transition: 2s;
+    margin-top: 200px;
+    opacity: 0;
+}

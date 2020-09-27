@@ -1,0 +1,50 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    background-image: url(images/BG.jpg);
+}
+body img{
+    height: 550px;
+}
+i{
+    font-size: 130px;
+    padding-top: 50px;
+    margin-left: 110px;
+    color: gray;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 42px !important;
+    padding-top: 170px;
+}
+h3{
+    font-size: 50px !important;
+    text-shadow: black 2px 4px 6px;
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.ptop{
+    font-size: 20px;
+    text-shadow: black 2px 4px 6px;
+}
+.btn{
+    
+}
+.container2{
+    padding-top: 100px;
+}
+.container2 img{
+    width: 500px;
+    height: 500px;
+}
+.container3{
+    padding-top: 100px;
+}
+.container4{
+    padding-top: 100px;
+}

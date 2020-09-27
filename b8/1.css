@@ -1,0 +1,16 @@
+h1{
+    font-size: 60px !important;
+    padding-top: 60px;
+    color: rgba(94, 85, 85, 0.884) !important;
+    padding-bottom: 30px;
+}
+h5{
+    color: orangered !important;
+}
+.dam{
+    font-weight: bold;
+}
+.khoi{
+    padding-bottom: 30px;
+}
+

@@ -1,0 +1,61 @@
+.left{
+    width: 300px;
+    float: left;
+}
+.khoinho{
+    width: 300px;
+    float: left;
+    margin-bottom: 10px;
+}
+.khoinho img{
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+a.left{
+    width: 300px;
+    height: 50px;
+    float: left;
+}
+.left a{
+    line-height: 5px;
+    text-align: justify;
+    
+}
+a.linkcon{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+a.linkcon:hover{
+    color: rgb(76, 76, 216);
+}
+a.linkcon:active{
+    color: cornsilk;
+}
+a.linkcon:visited{
+    color: purple;
+}
+.right{
+    width: 600px;
+    height: 300px;
+}
+.right img{
+    width: 300px;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: rgb(76, 76, 216) ;
+}
+a:active{
+    color: cornsilk;
+}
+a:visited{
+    color: purple;
+}
+
