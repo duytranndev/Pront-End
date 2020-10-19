@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.phai a{
+    color: saddlebrown;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 5px 40px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.menu{
+    background: pink;
+    padding: 30px 0px;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+    text-decoration: none;
+    width: 100%;
+}
+.noidung{
+    padding-top: 100px;
+}
+
+.menunho{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.maulogo{
+    color: red;
+}

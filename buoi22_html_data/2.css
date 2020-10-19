@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hinh1{
+    width: 100%;
+}
+
+.taohieuung{
+    animation: n1 4s forwards;
+}
+
+@keyframes n1{
+    /* from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    } */
+
+    from{
+        transform: rotateY(10deg);
+        opacity: 1;
+        transform-origin: 50% 100%;
+    }
+    to{
+        transform: rotateY(200deg);
+        opacity: 1;
+        transform-origin: 50% 100%;
+    }
+
+}

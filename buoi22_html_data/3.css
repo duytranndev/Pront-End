@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.thanhmenu{
+    height: 42px;
+    background: #3b5998;
+    padding-left: 65%;
+    width: 100%;
+}
+
+.phantu{
+    float: left;
+    width: 40px;
+    position: relative;
+}
+.bieutuong{
+    width: 42px;
+    font-size: 18px;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bieutuong i{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.noidung{
+    position: absolute;
+    width: 141px;
+    font-size: 13px;
+    top: 44px;
+    right: 0px;
+    opacity: 0;
+}
+
+.noidung::after{
+    content:"";
+    position: absolute;
+    top: -20px;
+    width: 0;
+    height: 0;
+    border: 11px rgba(250, 215, 0, 0) solid;
+    border-bottom-color: white;
+    right: 8px;
+}
+
+.icontrang{
+    color: white;
+}
+
+.xuathien{
+    opacity: 1;
+    visibility: visible;
+}
