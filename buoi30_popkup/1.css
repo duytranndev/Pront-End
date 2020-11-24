@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(165, 221, 202);
+    color: white;
+    overflow: hidden;
+}
+.formdn{
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    position: fixed;
+    top: 30%;
+    left: 
+    40%;
+    z-index: 5;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    transform: scale(0.4);
+}
+
+.formhien{
+    visibility: visible;
+    transform: scale(1);
+    transition: 0.5s;
+    opacity: 1;
+}
+
+
+/* CSS cho phan 2 */
+
+.main{
+    position: relative;
+    margin-top: 100px;
+}
+
+.noidung2{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    border: 2px solid yellow;
+    color: red;
+    background-color: seashell;
+    visibility: hidden;
+    opacity: 0;
+    transform: rotate(25deg) scale(3);
+    transform-origin: 0% 100%;
+    transition: 1s;
+}
+
+
+.formhien2{
+    visibility: visible;
+    opacity: 1;
+    transform: rotate(0) scale(1);
+    transition: 1s;
+}
+
+/* css cho phan 3 POPUP */
+
+.popup{
+    position: fixed;
+    top: 20%;
+    left: 37%;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.closepopup{
+    cursor: pointer;
+    float: right;
+    margin-right: 10%;
+    font-size: 20px;
+}
+.hinhpopup{
+    width: 80%;
+    margin-top: 0%;
+}
+.hienpop{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+}
