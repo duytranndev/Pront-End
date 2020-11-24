@@ -1,0 +1,34 @@
+.hom{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+}
+
+.nut{
+    width: 30px;
+    height: 20px;
+    background-color: coral;
+}
+
+.chuyendong{
+    animation: dichuyen 1.5s forwards;
+}
+@keyframes dichuyen{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(440px);
+    }
+}
+@keyframes xuong{
+    from{
+        transform: translateX(440px) translateY(0px);
+    }
+    to{
+        transform: translateX(440px) translateY(200px);
+    }
+}
+.dixuong{
+    animation: xuong 1.5s forwards;
+}

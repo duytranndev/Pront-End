@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.ndslide, .slide{
+    height: 100%;
+    width: 100%;
+}
+.ndslide ul{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.nutchuyen{
+    text-align: center;
+    bottom: 1%;
+    left:  50%;
+    transform: translateX(-45%);
+}
+.nutchuyen ul li{
+    display: inline-block;
+    border: 3px solid white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 20px 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.nutchuyen ul li:hover, .nutchuyen ul li.active{
+    background: rgb(22, 22, 22);
+}
+
+.ndslide ul li{
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.slide .hinh{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+.ndslide ul li .slide{
+    position: relative;
+}
+.slide .tgduoi1, .slide .tgduoi2, .slide .tgtren, .slide .noidung{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+.slide .tgduoi1{
+    opacity: 0;
+    top: -50%;
+}
+.slide .tgduoi2{
+    opacity: 0;
+    top: -20%;
+}
+.slide .tgtren{
+    opacity: 0;
+    right: -5%;
+}
+.slide .noidung{
+    opacity: 0;
+    left: 10%;
+    z-index: 3;
+    top: 46%;
+    color: wheat;
+}
+.ndslide li.active{
+    opacity: 1;
+}
+.ndslide ul li{
+    transition: 0.5s;
+}
+
+.slidewrapper{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.nutchuyen{
+    position: absolute;
+    z-index: 5;
+}
+
+/* css cho cac noi dung text */
+
+.slide small{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0;
+    display: block;
+    text-decoration: underline;
+}
+
+.slide h2{
+    font-size: 80px;
+    font-weight: normal;
+}
+.noidung .nut{
+    border: 1px solid white;
+    width: 55%;
+    padding:  8px 15px;
+    text-decoration: none;
+}

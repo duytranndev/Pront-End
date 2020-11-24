@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body, .slidewrapper, .slides, ul, li{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* CSS cho Slidewrapper */
+
+.slidewrapper{
+    position: relative;
+}
+/* css cho Slides */
+ul{
+    position: relative;
+}
+li{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+}
+.active{
+    opacity: 1;
+}
+
+/* Css cho Nut chuyen */
+
+.nutchuyen{
+    position: absolute;
+    bottom: 5%;
+    left: 47%;
+    z-index: 5;
+}
+
+.nutchuyen b{
+    font-size: 50px;
+    color: blanchedalmond;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.nutchuyen b:hover{
+    color: rgb(50, 56, 56);
+}
+
+/* hieu ung 1 */
+
+.anslideN{
+    animation: anSlN 2s forwards;
+}
+@keyframes anSlN{
+    from{ transform: scale(1); opacity: 1;}
+    to{ transform: scale(2); opacity: 0;}
+}
+.hienslideN{
+    animation: hienSlN 3s forwards;
+}
+@keyframes hienSlN{
+    from{ transform: scale(0.8); opacity: 0;}
+    to{ transform: scale(1); opacity: 1;}
+}
